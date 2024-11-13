@@ -1,6 +1,8 @@
 // 
 const twoSum = (nums,target) =>{
+    // created the array to contain the number
     let map =[]
+    // find the number will conform to target or not
     for (let i = 0 ;i <nums.length; i++){
         let tmp = nums[i]
         if(map[target - tmp] >= 0){
